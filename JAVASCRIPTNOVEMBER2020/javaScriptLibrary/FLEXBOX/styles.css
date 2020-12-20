@@ -1,0 +1,19 @@
+
+
+.parent {
+    height: 300px;
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+    margin: auto;    /* setting a vertical margin of auto will make the item perfectly centered in both axis*/
+
+} 
+
+.flex-container {
+    display: flex;    /*to align a list of items we want evenly distributed on a horizontal axis*/
+    flex-flow: row wrap;   /* define the flow directiion*/
+    justify-content: space-around;   /* how the remaining space is distributed*/
+
+}

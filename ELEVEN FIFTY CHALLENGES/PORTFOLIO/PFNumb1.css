@@ -1,0 +1,186 @@
+body {
+  height: 100%;
+  width: 100%;
+  z-index: -2;
+  background-repeat: no-repeat;
+  background-size: contain;
+ }
+
+.sidebar {
+  margin: 0;
+  padding: 0px;
+  width: 300px;
+  position: fixed;
+  height: 100vh;
+  overflow: auto;
+  z-index: 1;
+ }
+
+ 
+
+.avatar {
+  vertical-align: middle;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-left: 4em;
+  margin-top: 5em;
+  z-index: 3;
+  border: solid black 1px;
+  box-shadow: 0 0 18px;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+  transition: all ease 500ms;
+}
+
+body {
+  background-image: url(./assets/pexels-photo-304664.jpeg);
+  font-family: Play;
+}
+
+a {
+  width: 100px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 18px #000;
+  margin-top: 20px;
+  border: 1 px solid #444;
+  text-align: center;
+  display: block;
+  color: #444;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar {
+  background: rgb(98, 198, 216);
+  opacity: 1;
+  margin-top: 0;
+  margin-bottom: 25px;
+  border: solid black 2px;
+}
+.nav-item {
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 15px;
+  align-content: flex-end;
+  margin-left: 55px;
+
+}
+
+#portfolio {
+  background-color: lightgray;
+  max-width: 1610px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 75px;
+  border: solid black 2px;
+  margin-top: 500px;
+}
+
+#samplesection {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#contactPage {
+  background: rgb(253, 92, 92);
+  border-top: black 4px;
+  border-style: solid;
+  padding: 8rem;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+
+}
+
+
+h1 {
+  font-size: 50px;
+}
+
+h3 {
+  padding-top: 25px;
+}
+
+.form-group {
+  padding-top: 25px;
+}
+
+#content {
+  text-align: center;
+  color: black;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 300px;
+  padding-top: 200px;
+
+  
+}
+
+p {
+ align-items: center;
+  font-size: 1.5em;
+  font-family: Brush Script "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  padding-left: 220px;
+  
+}
+
+#quote {
+  padding-top: 200px;
+}
+
+#contactbutton {
+   color: black; 
+   border: solid black 3px;
+   font-weight: bold;
+  
+}
+
+#about-me {
+
+  margin-left: 100px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding-top: 100px;
+  border: solid gray 20px;
+  border-radius: 20px;
+  padding-right: 300px;
+  margin-right: 100px;
+  text-align: justify;
+  padding-bottom: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+
+/* #family {
+  height: 60px;
+  width: 60px;
+  margin-top: 40px;
+  margin-left: 40px;
+} */
+
+
+.MariL {
+  margin-left: 7em;
+}
+
+/* #footer (
+  padding-left: 300px;
+) */

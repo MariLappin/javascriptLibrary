@@ -1,0 +1,16 @@
+<body>
+    <!--All of our HTML code will go here-->
+    <button id="clickThisButton">I want to be clicked</button>
+
+    <script type="text/javascript">
+        /* All of our JavaScript code will go here */
+        document.getElementById('clickThisButton').addEventListener('click', () => {
+            console.log('I was clicked!');
+        document.getElementById('clickThisButton').addEventListener('click', (details) => {
+            console.log(details);
+        document.getElementById('clickThisButton').addEventListener('click', (details) => {
+            details.target.style.backgroundColor = 'red';
+});
+        });
+    </script>
+</body>

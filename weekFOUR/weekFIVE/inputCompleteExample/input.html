@@ -1,0 +1,28 @@
+<label for="nameInput">Enter Your Name:</label>
+<input type="text" id="nameInput" placeholder="John Smith" />
+
+<p>Welcome!</p>
+<p>No name has been entered</p>
+
+<script type="text/javascript">
+
+<body>
+
+
+<label for="nameInput">Enter Your Name:</label>
+<input type="text" id="nameInput" placeholder="John Smith" />
+
+<p>Welcome!</p>
+<p>No name has been entered</p>
+
+<script type="text/javascript">  
+    <script type="text/javascript">
+    /* All of our JavaScript code will go here */
+    document.getElementById('nameInput').addEventListener('keyup', (event) => {
+        document.getElementsByTagName("p")[1].innerText = `Everyone please welcome ${event.target.value} to the stage.`;
+    });
+</script>  
+    
+</script>
+
+</body>
